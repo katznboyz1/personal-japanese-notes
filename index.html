@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <meta charset = 'utf-8'/>
+        <meta name = 'description' content = "The home page of katznboyz's personal Japanese language class note searcher/dictionary.">
+        <title>Japanese Notes Searcher</title>
+        <link rel = 'stylesheet' href = './utils/mainPageStyle.css'/>
+        <link rel = 'icon' href = './utils/favicon.png'>
+        <script src = './utils/three.min.js'></script>
+        <script src = './utils/vanta.waves.min.js'></script>
+        <script>
+            function search() {
+                const searchOperation = String(document.getElementById('searchByDropdown').value);
+                const searchQuery = String(document.getElementById('queryEntry').value);
+            }
+            window.onload = function(event) {
+                VANTA.WAVES({
+                    el:'#backgroundMain',
+                    color:0x3252,
+                    waveHeight:15,
+                    shininess:30,
+                    waveSpeed:0.25,
+                    zoom:0.9
+                });
+            }
+        </script>
+        <!--three.min.js and vanta.waves.min.js are not mine, they are open source projects available online for free-->
+    </head>
+    <body id = 'backgroundMain'>
+        <div id = 'centeredContentDiv'>
+            <select id = 'searchByDropdown'>
+                <option value = 'operation1'>Search by pronunciation</option>
+                <option value = 'operation2'>Search by definition</option>
+                <option value = 'operation3'>Search by type</option>
+            </select>
+            <input type = 'text' id = 'queryEntry' placeholder = 'Search query goes here'/>
+            <button id = 'searchButton' onclick = 'search();'>Search!</button>
+            <div id = 'resultsOfSearchDiv'>
+            </div>
+        </div>
+    </body>
+</html>

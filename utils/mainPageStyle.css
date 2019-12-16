@@ -1,0 +1,14 @@
+@font-face{font-family:__local__robotoLight;src:url('./robotoLight.ttf');}
+@font-face{font-family:__local__robotoMedium;src:url('./robotoMedium.ttf');}
+.vanta-canvas{position:absolute;top:0px;left:0px;width:100vw;height:100vh;}
+body{margin:0px;padding:0px;width:100vw;height:100vh;overflow:hidden;position:absolute;}
+#centeredContentDiv{width:100vw;max-width:1000px;height:90vh;border:0px solid black;margin:auto;position:absolute;top:0;bottom:0;right:0;left:0;overflow:hidden;overflow-y:scroll;}
+#searchByDropdown{font-family:__local__robotoMedium;font-size:25px;background-color:rgba(255, 255, 255, 0.25);color:black;border:0px solid black;padding:5px;border-radius:5px;display:block;margin-left:auto;margin-right:auto;margin-top:3px;margin-bottom:3px;}
+#searchByDropdown:hover{font-family:__local__robotoMedium;font-size:25px;background-color:rgba(255, 255, 255, 0.55);color:black;border:0px solid black;padding:5px;border-radius:5px;display:block;margin-left:auto;margin-right:auto;margin-top:3px;margin-bottom:3px;}
+#searchByDropdown:active{font-family:__local__robotoMedium;font-size:25px;background-color:rgba(255, 255, 255, 1);color:black;border:0px solid black;padding:5px;border-radius:5px;display:block;margin-left:auto;margin-right:auto;margin-top:3px;margin-bottom:3px;}
+#searchButton{font-family:__local__robotoMedium;font-size:25px;background-color:rgba(0, 255, 0, 0.25);color:black;border:0px solid black;padding:5px;border-radius:5px;display:block;margin-left:auto;margin-right:auto;margin-top:3px;margin-bottom:3px;}
+#searchButton:hover{font-family:__local__robotoMedium;font-size:25px;background-color:rgba(0, 255, 0, 0.55);color:black;border:0px solid black;padding:5px;border-radius:5px;display:block;margin-left:auto;margin-right:auto;margin-top:3px;margin-bottom:3px;}
+#searchButton:active{font-family:__local__robotoMedium;font-size:25px;background-color:rgba(0, 255, 0, 1);color:black;border:0px solid black;padding:5px;border-radius:5px;display:block;margin-left:auto;margin-right:auto;margin-top:3px;margin-bottom:3px;}
+#queryEntry{font-family:__local__robotoMedium;font-size:25px;background-color:rgba(255, 255, 255, 0.25);color:black;border:0px solid black;padding:5px;border-radius:5px;display:block;margin-left:auto;margin-right:auto;margin-top:3px;margin-bottom:3px;}
+#queryEntry:hover{font-family:__local__robotoMedium;font-size:25px;background-color:rgba(255, 255, 255, 0.55);color:black;border:0px solid black;padding:5px;border-radius:5px;display:block;margin-left:auto;margin-right:auto;margin-top:3px;margin-bottom:3px;}
+#resultsOfSearchDiv{border:0px solid black;width:100%;height:auto;margin:0px;padding:0px;}
